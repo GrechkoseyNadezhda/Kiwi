@@ -1,0 +1,61 @@
+.header {
+  padding: 5px 0;
+  color: $main-color;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+
+  @include mq(tab) {
+    padding: 10px 0;
+  }
+
+  @include mq(desk) {
+    padding: 20px 0;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mq(desk) {
+      gap: 100px;
+      justify-content: center;
+    }
+  }
+
+  &__list {
+    display: none;
+
+    @include mq(tab) {
+      display: flex;
+      gap: 75px;
+    }
+    @include mq(desk) {
+      gap: 100px;
+    }
+  }
+
+  &__logo {
+    width: 96px;
+
+    @include mq(tab) {
+      width: 144px;
+    }
+    @include mq(desk) {
+      width: 191px;
+    }
+  }
+}
+
+.hamburger {
+  display: block;
+  width: 17px;
+  height: 11px;
+
+  @include mq(tab) {
+    display: none;
+  }
+}

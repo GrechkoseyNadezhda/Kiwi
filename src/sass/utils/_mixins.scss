@@ -1,0 +1,16 @@
+@mixin mq($type) {
+  $tablet: 768px;
+  $desktop: 1280px;
+
+  @if $type == "tab" {
+    @media screen and (min-width: $tablet) {
+      @content;
+    }
+  }
+
+  @if $type == "desk" {
+    @media screen and (min-width: $desktop) {
+      @content;
+    }
+  }
+}

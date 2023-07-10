@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiwi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Bebas+Neue&family=Galada&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__wrap">
+        <ul class="header__list">
+          <li class="header__item"><a href="" class="header__link">Home</a></li>
+          <li class="header__item">
+            <a href="" class="header__link">Boxes</a>
+          </li>
+        </ul>
+        <div class="header__logo">
+          <img src="./img/logo/logo.png" alt="logo" class="logo__img" />
+        </div>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="" class="header__link">About</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">Account</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <img src="./icons/hamburger.svg" alt="hamburger" />
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container hero__wrap">
+        <div class="hero__title title"><span>Everything You Need</span></div>
+        <div class="hero__descr">
+          <div class="hero__descr_first"><span>to Start Living</span></div>
+          <div class="hero__descr_second"><span>&nbsp;Zero-Waste</span></div>
+        </div>
+        <button class="hero__btn btn">Start now</button>
+      </div>
+      <div class="hero__img">
+        <picture>
+          <source
+            srcset="./img/hero/hero_s@2x.png"
+            media="(max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (min-resolution: 192dpi)"
+          />
+          <source srcset="./img/hero/hero_s.png" media="(max-width: 767px)" />
+          <source
+            srcset="./img/hero/hero@2x.png"
+            media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi)"
+          />
+          <source srcset="./img/hero/hero.png" media="(min-width: 768px)" />
+          <img src="./img/hero/hero_s.png" alt="hero" />
+        </picture>
+      </div>
+    </section>
+
+    <section class="overview">
+      <div class="container">
+        <div class="overview__title title"><span>How it Works</span></div>
+        <ul class="overview__list">
+          <li class="overview__item">
+            <div class="overview__img">
+              <picture>
+                <source
+                  srcset="./img/how-it-works/woman_s@2x.png"
+                  media="(max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (min-resolution: 192dpi)"
+                />
+                <source
+                  srcset="./img/how-it-works/woman_s.png"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./img/how-it-works/woman@2x.png"
+                  media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi)"
+                />
+                <source
+                  srcset="./img/how-it-works/woman.png"
+                  media="(min-width: 768px)"
+                />
+                <img src="./img/how-it-works/woman_s.png" alt="overview img" />
+              </picture>
+            </div>
+            <div class="overview__subtitle"><span>Join The Movement</span></div>
+            <div class="overview__descr">
+              <span
+                >Get started by signing up for monthly subscription. We bring
+                you an easy way to start your zero-waste journey</span
+              >
+            </div>
+          </li>
+          <li class="overview__item">
+            <div class="overview__divider">
+              <img src="./icons/wave-s.svg" alt="divider" />
+            </div>
+            <div class="overview__img">
+              <picture>
+                <source
+                  srcset="./img/how-it-works/gift_s@2x.png"
+                  media="(max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (min-resolution: 192dpi)"
+                />
+                <source
+                  srcset="./img/how-it-works/gift_s.png"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./img/how-it-works/gift@2x.png"
+                  media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi)"
+                />
+                <source
+                  srcset="./img/how-it-works/gift.png"
+                  media="(min-width: 768px)"
+                />
+                <img src="./img/how-it-works/gift_s.png" alt="overview img" />
+              </picture>
+            </div>
+            <div class="overview__subtitle"><span>Get Your Box</span></div>
+            <div class="overview__descr">
+              <span
+                >Every month receive your box with essential products, but
+                plastic free and safe for the environment</span
+              >
+            </div>
+          </li>
+          <li class="overview__item">
+            <div class="overview__divider">
+              <img src="./icons/wave-s.svg" alt="divider" />
+            </div>
+            <div class="overview__img">
+              <picture>
+                <source
+                  srcset="./img/how-it-works/hands_s@2x.png"
+                  media="(max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (min-resolution: 192dpi)"
+                />
+                <source
+                  srcset="./img/how-it-works/hands_s.png"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./img/how-it-works/hands@2x.png"
+                  media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi)"
+                />
+                <source
+                  srcset="./img/how-it-works/hands.png"
+                  media="(min-width: 768px)"
+                />
+                <img src="./img/how-it-works/hands_s.png" alt="overview img" />
+              </picture>
+            </div>
+            <div class="overview__subtitle"><span>Make a Difference</span></div>
+            <div class="overview__descr">
+              <span
+                >Small steps can lead to bigger changes, and now you are the
+                change. Let's build community of people who care</span
+              >
+            </div>
+          </li>
+        </ul>
+        <button class="overview__btn btn">Get the Box</button>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
